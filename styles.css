@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #background-modal{
-    display: flex;
+    display: none;
     flex-direction:column;
     opacity: 1;
     transition: all 1s;
@@ -90,7 +90,7 @@
     font-size: 15px;
 }
 #plano-options{
-    display:flex;
+    display:none;
     align-items:center;
     flex-direction: column;
     position:fixed;
